@@ -1,5 +1,5 @@
 # mushrooms
-Script used to complete the "[https://www.kaggle.com/uciml/mushroom-classification](Mushroom Classification)" Kaggle competition.
+Script used to complete the "[Mushroom Classification](https://www.kaggle.com/uciml/mushroom-classification)" Kaggle competition.
 
 The objective of this dataset is to classify whether a mushroom is poisonous or not based on 22 categorical features. Working on this dataset ended up being an exercise in pre-processing, as nearly every possible undesireable trait was present and needed to be dealt with. These violations came in 4 main flavors:
 
@@ -13,4 +13,4 @@ For some reason, the tasks on Kaggle all direct participants to use more complex
 1. With proper processing, it turns out that a small subset of the perdictors perfectly identify mushrooms as poisonous or not. This means that even simple models can achieve 100% accuracy on this dataset.
 2. More importantly, interpretation is pivotal in a scenario like this. What good is your model if it can't help you determine whether a mushroom is poisonous or not when you're out in the wilderness with no technology on you!?
 
-For this reason, a model was trained using a simple and interpretable rule-based approach (C5.0 Rules to be specific. See [https://www.rulequest.com/see5-unix.html#RULES](here) for more information.) This model achieved 100% accuracy using a set of 11 rules and 9 variables — short enough to write on some scrap paper before you go off into the wilderness yet detailed enough to ensure you never eat a poisonous mushroom. Please refer to `rules.txt` in this repository for the full final model.
+For this reason, a model was trained using a simple and interpretable rule-based approach (C5.0 Rules to be specific. See [here](https://www.rulequest.com/see5-unix.html#RULES) for more information.) This model achieved 100% accuracy using a set of 11 rules and 9 variables — short enough to write on some scrap paper before you go off into the wilderness yet detailed enough to ensure you never eat a poisonous mushroom. Please refer to `rules.txt` in this repository for the full final model.
