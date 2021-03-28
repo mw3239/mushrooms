@@ -1,0 +1,58 @@
+id="See5/C5.0 2.07 GPL Edition 2021-03-27"
+entries="1"
+rules="11" default="e"
+
+Rule 1: conds="3" cover="907" ok="907" lift="1.92848" Ruleclass="e"
+type="2" att="bruisesFALSE" cut="0" result="<"
+type="2" att="odorf" cut="0" result="<"
+type="2" att="stalk_shapee" cut="0" result="<"
+
+Rule 2: conds="3" cover="1114" ok="1114" lift="1.92888" class="e"
+type="2" att="odorn" cut="0" result=">"
+type="2" att="gill_sizen" cut="0" result="<"
+type="2" att="populationv" cut="0" result="<"
+
+Rule 3: conds="3" cover="442" ok="442" lift="1.92626" class="e"
+type="2" att="bruisesFALSE" cut="0" result=">"
+type="2" att="odorn" cut="0" result=">"
+type="2" att="stalk_surface_above_rings" cut="0" result=">"
+
+Rule 4: conds="4" cover="371" ok="371" lift="1.92543" class="e"
+type="2" att="bruisesFALSE" cut="0" result="<"
+type="2" att="odorf" cut="0" result="<"
+type="2" att="odorn" cut="0" result="<"
+type="2" att="gill_sizen" cut="0" result="<"
+
+Rule 5: conds="4" cover="168" ok="168" lift="1.91925" class="e"
+type="2" att="odorn" cut="0" result=">"
+type="2" att="stalk_surface_above_rings" cut="0" result=">"
+type="2" att="spore_print_colorw" cut="0" result=">"
+type="2" att="habitatl" cut="0" result="<"
+
+Rule 6: conds="3" cover="73" ok="73" lift="1.90487" class="e"
+type="2" att="odorn" cut="0" result=">"
+type="2" att="populationv" cut="0" result=">"
+type="2" att="habitatl" cut="0" result=">"
+
+Rule 7: conds="2" cover="1638" ok="1638" lift="2.0733" class="p"
+type="2" att="bruisesFALSE" cut="0" result=">"
+type="2" att="odorn" cut="0" result="<"
+
+Rule 8: conds="1" cover="1072" ok="1072" lift="2.07263" class="p"
+type="2" att="odorf" cut="0" result=">"
+
+Rule 9: conds="3" cover="228" ok="228" lift="2.06555" class="p"
+type="2" att="odorn" cut="0" result="<"
+type="2" att="gill_sizen" cut="0" result=">"
+type="2" att="stalk_shapee" cut="0" result=">"
+
+Rule 10: conds="4" cover="100" ok="100" lift="2.05423" class="p"
+type="2" att="bruisesFALSE" cut="0" result="<"
+type="2" att="stalk_shapee" cut="0" result=">"
+type="2" att="spore_print_colorw" cut="0" result="<"
+type="2" att="populationv" cut="0" result=">"
+
+Rule 11: conds="2" cover="931" ok="904" lift="2.01231" class="p"
+type="2" att="gill_sizen" cut="0" result=">"
+type="2" att="spore_print_colorw" cut="0" result=">"
+
