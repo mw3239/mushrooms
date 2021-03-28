@@ -1,4 +1,4 @@
-# mushrooms
+# Mushroom Classification
 Script used to complete the "[Mushroom Classification](https://www.kaggle.com/uciml/mushroom-classification)" Kaggle competition.
 
 The objective of this dataset is to classify whether a mushroom is poisonous or not based on 22 categorical features. Working on this dataset ended up being an exercise in pre-processing, as nearly every possible undesireable trait was present and needed to be dealt with. These violations came in 4 main flavors:
