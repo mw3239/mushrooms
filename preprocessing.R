@@ -137,7 +137,7 @@ confusionMatrix(data = test_y, reference = model_predictions)
 #2) More importantly, interpretability is extremely important in the event that
 #you ever need to use this model to eat a potentially poisonous mushroom.
 
-#To get a better understanding of let's look at what rules lead to these decisions,
+#To get a better understanding of what rules lead to these decisions,
 #let's take a look at variable importance the rules.
 varImp(model_fit)
 
